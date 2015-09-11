@@ -51,18 +51,12 @@
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <Sequence sap2010:WorkflowViewState.IdRef="Sequence_1">
-    <While sap2010:WorkflowViewState.IdRef="While_1">
-      <While.Variables>
-        <Variable x:TypeArguments="x:Int32" Default="0" Name="index" />
-      </While.Variables>
-      <While.Condition>[index &lt;= 10]</While.Condition>
-      <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke UiPath-Credera-Square-App-Test workflow" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="UiPath-Credera-Square-App-Test.xaml">
-        <ui:InvokeWorkflowFile.Arguments>
-          <scg:Dictionary x:TypeArguments="x:String, Argument" />
-        </ui:InvokeWorkflowFile.Arguments>
-      </ui:InvokeWorkflowFile>
-    </While>
-    <sads:DebugSymbol.Symbol>dzlDOlxVc2Vyc1xJRVVzZXJcRG9jdW1lbnRzXFVpUGF0aFxjcmVkZXJhLXNxdWFyZVxNYWluLnhhbWwGNQNCDgIBATYFQA0CAQI4NTg4AgEDOwc/HwIBBjoYOigCAQQ7zQE78gECAQc=</sads:DebugSymbol.Symbol>
+    <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke UiPath-Credera-Square-App-Test workflow" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="UiPath-Credera-Square-App-Test.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <scg:Dictionary x:TypeArguments="x:String, Argument" />
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <sads:DebugSymbol.Symbol>dzlDOlxVc2Vyc1xJRVVzZXJcRG9jdW1lbnRzXFVpUGF0aFxjcmVkZXJhLXNxdWFyZVxNYWluLnhhbWwDNQM8DgIBATYFOh0CAQI2ywE28AECAQM=</sads:DebugSymbol.Symbol>
   </Sequence>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
@@ -74,15 +68,14 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="While_1" sap:VirtualizedContainerService.HintSize="464,247" />
-      <sap2010:ViewStateData Id="Sequence_1" sap:VirtualizedContainerService.HintSize="486,371">
+      <sap2010:ViewStateData Id="Sequence_1" sap:VirtualizedContainerService.HintSize="336,211">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Main_1" sap:VirtualizedContainerService.HintSize="526,491" />
+      <sap2010:ViewStateData Id="Main_1" sap:VirtualizedContainerService.HintSize="376,491" />
     </sap2010:ViewStateManager>
   </sap2010:WorkflowViewState.ViewStateManager>
 </Activity>
